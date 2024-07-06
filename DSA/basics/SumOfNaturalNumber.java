@@ -4,8 +4,11 @@ public class SumOfNaturalNumber {
     public static void main(String[] args) {
         int start = 3;
         int end = 5;
-        displayRangeSum(start, end);
-        displaySum(end);
+        // displayRangeSum(start, end);
+        // displaySum(end);
+        int num = 2100000000;
+        int sum = sumNaturalNoTillEnd(num);
+        System.out.println(sum);
     }
 
     private static void displaySum(int end) {
